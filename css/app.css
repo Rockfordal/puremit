@@ -1,0 +1,22 @@
+/*#main a { display: block; }*/
+
+.menu {
+  background: #333;
+}
+
+li {
+  background: #333;
+}
+
+li:hover {
+    background: #444;
+}
+
+.menu a {
+  color: #FFF;
+}
+
+.menu .active>a {
+  background: #000;
+  color: yellowgreen;
+}
