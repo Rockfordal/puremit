@@ -59,7 +59,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = emptyObject;
 }).call(this,require('_process'))
-},{"_process":93}],3:[function(require,module,exports){
+},{"_process":94}],3:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -117,7 +117,7 @@ function invariant(condition, format, a, b, c, d, e, f) {
 
 module.exports = invariant;
 }).call(this,require('_process'))
-},{"_process":93}],4:[function(require,module,exports){
+},{"_process":94}],4:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -186,7 +186,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = warning;
 }).call(this,require('_process'))
-},{"./emptyFunction":1,"_process":93}],5:[function(require,module,exports){
+},{"./emptyFunction":1,"_process":94}],5:[function(require,module,exports){
 /*
 object-assign
 (c) Sindre Sorhus
@@ -343,7 +343,7 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
 module.exports = checkPropTypes;
 
 }).call(this,require('_process'))
-},{"./lib/ReactPropTypesSecret":9,"_process":93,"fbjs/lib/invariant":3,"fbjs/lib/warning":4}],7:[function(require,module,exports){
+},{"./lib/ReactPropTypesSecret":9,"_process":94,"fbjs/lib/invariant":3,"fbjs/lib/warning":4}],7:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -882,7 +882,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 };
 
 }).call(this,require('_process'))
-},{"./checkPropTypes":6,"./lib/ReactPropTypesSecret":9,"_process":93,"fbjs/lib/emptyFunction":1,"fbjs/lib/invariant":3,"fbjs/lib/warning":4}],9:[function(require,module,exports){
+},{"./checkPropTypes":6,"./lib/ReactPropTypesSecret":9,"_process":94,"fbjs/lib/emptyFunction":1,"fbjs/lib/invariant":3,"fbjs/lib/warning":4}],9:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -1071,7 +1071,7 @@ var PooledClass = {
 
 module.exports = PooledClass;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":32,"_process":93,"fbjs/lib/invariant":3}],12:[function(require,module,exports){
+},{"./reactProdInvariant":32,"_process":94,"fbjs/lib/invariant":3}],12:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -1177,7 +1177,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = React;
 }).call(this,require('_process'))
-},{"./ReactChildren":13,"./ReactClass":14,"./ReactComponent":15,"./ReactDOMFactories":18,"./ReactElement":19,"./ReactElementValidator":21,"./ReactPropTypes":24,"./ReactPureComponent":26,"./ReactVersion":27,"./canDefineProperty":28,"./onlyChild":31,"_process":93,"fbjs/lib/warning":4,"object-assign":5}],13:[function(require,module,exports){
+},{"./ReactChildren":13,"./ReactClass":14,"./ReactComponent":15,"./ReactDOMFactories":18,"./ReactElement":19,"./ReactElementValidator":21,"./ReactPropTypes":24,"./ReactPureComponent":26,"./ReactVersion":27,"./canDefineProperty":28,"./onlyChild":31,"_process":94,"fbjs/lib/warning":4,"object-assign":5}],13:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -2093,7 +2093,7 @@ var ReactClass = {
 
 module.exports = ReactClass;
 }).call(this,require('_process'))
-},{"./ReactComponent":15,"./ReactElement":19,"./ReactNoopUpdateQueue":22,"./ReactPropTypeLocationNames":23,"./reactProdInvariant":32,"_process":93,"fbjs/lib/emptyObject":2,"fbjs/lib/invariant":3,"fbjs/lib/warning":4,"object-assign":5}],15:[function(require,module,exports){
+},{"./ReactComponent":15,"./ReactElement":19,"./ReactNoopUpdateQueue":22,"./ReactPropTypeLocationNames":23,"./reactProdInvariant":32,"_process":94,"fbjs/lib/emptyObject":2,"fbjs/lib/invariant":3,"fbjs/lib/warning":4,"object-assign":5}],15:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -2213,7 +2213,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactComponent;
 }).call(this,require('_process'))
-},{"./ReactNoopUpdateQueue":22,"./canDefineProperty":28,"./reactProdInvariant":32,"_process":93,"fbjs/lib/emptyObject":2,"fbjs/lib/invariant":3,"fbjs/lib/warning":4}],16:[function(require,module,exports){
+},{"./ReactNoopUpdateQueue":22,"./canDefineProperty":28,"./reactProdInvariant":32,"_process":94,"fbjs/lib/emptyObject":2,"fbjs/lib/invariant":3,"fbjs/lib/warning":4}],16:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2016-present, Facebook, Inc.
@@ -2549,7 +2549,7 @@ var ReactComponentTreeHook = {
 
 module.exports = ReactComponentTreeHook;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":17,"./reactProdInvariant":32,"_process":93,"fbjs/lib/invariant":3,"fbjs/lib/warning":4}],17:[function(require,module,exports){
+},{"./ReactCurrentOwner":17,"./reactProdInvariant":32,"_process":94,"fbjs/lib/invariant":3,"fbjs/lib/warning":4}],17:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -2752,7 +2752,7 @@ var ReactDOMFactories = {
 
 module.exports = ReactDOMFactories;
 }).call(this,require('_process'))
-},{"./ReactElement":19,"./ReactElementValidator":21,"_process":93}],19:[function(require,module,exports){
+},{"./ReactElement":19,"./ReactElementValidator":21,"_process":94}],19:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-present, Facebook, Inc.
@@ -3095,7 +3095,7 @@ ReactElement.isValidElement = function (object) {
 
 module.exports = ReactElement;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":17,"./ReactElementSymbol":20,"./canDefineProperty":28,"_process":93,"fbjs/lib/warning":4,"object-assign":5}],20:[function(require,module,exports){
+},{"./ReactCurrentOwner":17,"./ReactElementSymbol":20,"./canDefineProperty":28,"_process":94,"fbjs/lib/warning":4,"object-assign":5}],20:[function(require,module,exports){
 /**
  * Copyright 2014-present, Facebook, Inc.
  * All rights reserved.
@@ -3370,7 +3370,7 @@ var ReactElementValidator = {
 
 module.exports = ReactElementValidator;
 }).call(this,require('_process'))
-},{"./ReactComponentTreeHook":16,"./ReactCurrentOwner":17,"./ReactElement":19,"./canDefineProperty":28,"./checkReactTypeSpec":29,"./getIteratorFn":30,"_process":93,"fbjs/lib/warning":4}],22:[function(require,module,exports){
+},{"./ReactComponentTreeHook":16,"./ReactCurrentOwner":17,"./ReactElement":19,"./canDefineProperty":28,"./checkReactTypeSpec":29,"./getIteratorFn":30,"_process":94,"fbjs/lib/warning":4}],22:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -3468,7 +3468,7 @@ var ReactNoopUpdateQueue = {
 
 module.exports = ReactNoopUpdateQueue;
 }).call(this,require('_process'))
-},{"_process":93,"fbjs/lib/warning":4}],23:[function(require,module,exports){
+},{"_process":94,"fbjs/lib/warning":4}],23:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -3495,7 +3495,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactPropTypeLocationNames;
 }).call(this,require('_process'))
-},{"_process":93}],24:[function(require,module,exports){
+},{"_process":94}],24:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -3615,7 +3615,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = canDefineProperty;
 }).call(this,require('_process'))
-},{"_process":93}],29:[function(require,module,exports){
+},{"_process":94}],29:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -3704,7 +3704,7 @@ function checkReactTypeSpec(typeSpecs, values, location, componentName, element,
 
 module.exports = checkReactTypeSpec;
 }).call(this,require('_process'))
-},{"./ReactComponentTreeHook":16,"./ReactPropTypeLocationNames":23,"./ReactPropTypesSecret":25,"./reactProdInvariant":32,"_process":93,"fbjs/lib/invariant":3,"fbjs/lib/warning":4}],30:[function(require,module,exports){
+},{"./ReactComponentTreeHook":16,"./ReactPropTypeLocationNames":23,"./ReactPropTypesSecret":25,"./reactProdInvariant":32,"_process":94,"fbjs/lib/invariant":3,"fbjs/lib/warning":4}],30:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -3785,7 +3785,7 @@ function onlyChild(children) {
 
 module.exports = onlyChild;
 }).call(this,require('_process'))
-},{"./ReactElement":19,"./reactProdInvariant":32,"_process":93,"fbjs/lib/invariant":3}],32:[function(require,module,exports){
+},{"./ReactElement":19,"./reactProdInvariant":32,"_process":94,"fbjs/lib/invariant":3}],32:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -4002,12 +4002,65 @@ function traverseAllChildren(children, callback, traverseContext) {
 
 module.exports = traverseAllChildren;
 }).call(this,require('_process'))
-},{"./KeyEscapeUtils":10,"./ReactCurrentOwner":17,"./ReactElementSymbol":20,"./getIteratorFn":30,"./reactProdInvariant":32,"_process":93,"fbjs/lib/invariant":3,"fbjs/lib/warning":4}],34:[function(require,module,exports){
+},{"./KeyEscapeUtils":10,"./ReactCurrentOwner":17,"./ReactElementSymbol":20,"./getIteratorFn":30,"./reactProdInvariant":32,"_process":94,"fbjs/lib/invariant":3,"fbjs/lib/warning":4}],34:[function(require,module,exports){
 'use strict';
 
 module.exports = require('./lib/React');
 
 },{"./lib/React":12}],35:[function(require,module,exports){
+// Generated by purs version 0.11.4
+"use strict";
+var Control_Applicative = require("../Control.Applicative");
+var Control_Monad_Eff = require("../Control.Monad.Eff");
+var Control_Monad_Eff_Console = require("../Control.Monad.Eff.Console");
+var Data = require("../Data");
+var Data_Unit = require("../Data.Unit");
+var Mithril = require("../Mithril");
+var Prelude = require("../Prelude");
+var React_DOM_Props = require("../React.DOM.Props");
+var Views = require("../Views");
+var Pang = (function () {
+    function Pang() {
+
+    };
+    Pang.value = new Pang();
+    return Pang;
+})();
+var None = (function () {
+    function None() {
+
+    };
+    None.value = new None();
+    return None;
+})();
+var initialState = {
+    name: "Namn", 
+    street: "gata"
+};
+var dispatch = function (s) {
+    if (s instanceof Pang) {
+        return Control_Monad_Eff_Console.log("PANG!");
+    };
+    if (s instanceof None) {
+        return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
+    };
+    throw new Error("Failed pattern match at App line 36, column 3 - line 38, column 18: " + [ s.constructor.name ]);
+};
+var app = {
+    oninit: Data.setState(initialState), 
+    view: function (vnode) {
+        return [ Mithril.div_([ Mithril.mc(Views.navbar), Mithril.h1("Mithril + Purescript"), Mithril.input([ React_DOM_Props._type("text"), React_DOM_Props.placeholder("enter Username "), React_DOM_Props.value(Data.getVnodeName(vnode)) ]), Mithril.input([ React_DOM_Props._type("password"), React_DOM_Props.placeholder("enter password") ]), Mithril.p_([ Mithril.text(Data.getVnodeName(vnode)) ]), Mithril.mp("a")([ React_DOM_Props.href("http://www.intel.com"), Mithril.className("success button") ])([ Mithril.text("Add") ]), Mithril.mp("a")([ React_DOM_Props.href("http://www.hp.com"), Mithril.className("warning button") ])([ Mithril.text("Update") ]), Mithril.mp("button")([ React_DOM_Props._type("button"), Mithril.className("success button"), Mithril.onclick(Control_Monad_Eff_Console.log("hey!")) ])([ Mithril.text("Test") ]), Mithril.mp("button")([ React_DOM_Props._type("button"), Mithril.className("alert button"), Mithril.onclick(dispatch(Pang.value)) ])([ Mithril.text("Radera") ]), Mithril.mp_("span.label.warning")([ Mithril.text("Warning") ]), Mithril.mc(Views.footer) ]) ];
+    }
+};
+module.exports = {
+    Pang: Pang, 
+    None: None, 
+    app: app, 
+    dispatch: dispatch, 
+    initialState: initialState
+};
+
+},{"../Control.Applicative":36,"../Control.Monad.Eff":45,"../Control.Monad.Eff.Console":43,"../Data":81,"../Data.Unit":78,"../Mithril":84,"../Prelude":85,"../React.DOM.Props":87,"../Views":92}],36:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var Control_Apply = require("../Control.Apply");
@@ -4075,7 +4128,7 @@ module.exports = {
     applicativeArray: applicativeArray
 };
 
-},{"../Control.Apply":37,"../Data.Functor":59,"../Data.Unit":77}],36:[function(require,module,exports){
+},{"../Control.Apply":38,"../Data.Functor":60,"../Data.Unit":78}],37:[function(require,module,exports){
 "use strict";
 
 exports.arrayApply = function (fs) {
@@ -4091,7 +4144,7 @@ exports.arrayApply = function (fs) {
   };
 };
 
-},{}],37:[function(require,module,exports){
+},{}],38:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var $foreign = require("./foreign");
@@ -4192,7 +4245,7 @@ module.exports = {
     applyArray: applyArray
 };
 
-},{"../Control.Category":40,"../Data.Function":57,"../Data.Functor":59,"./foreign":36}],38:[function(require,module,exports){
+},{"../Control.Category":41,"../Data.Function":58,"../Data.Functor":60,"./foreign":37}],39:[function(require,module,exports){
 "use strict";
 
 exports.arrayBind = function (arr) {
@@ -4205,7 +4258,7 @@ exports.arrayBind = function (arr) {
   };
 };
 
-},{}],39:[function(require,module,exports){
+},{}],40:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var $foreign = require("./foreign");
@@ -4298,7 +4351,7 @@ module.exports = {
     discardUnit: discardUnit
 };
 
-},{"../Control.Applicative":35,"../Control.Apply":37,"../Control.Category":40,"../Data.Function":57,"../Data.Functor":59,"../Data.Unit":77,"./foreign":38}],40:[function(require,module,exports){
+},{"../Control.Applicative":36,"../Control.Apply":38,"../Control.Category":41,"../Data.Function":58,"../Data.Functor":60,"../Data.Unit":78,"./foreign":39}],41:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var Control_Semigroupoid = require("../Control.Semigroupoid");
@@ -4320,7 +4373,7 @@ module.exports = {
     categoryFn: categoryFn
 };
 
-},{"../Control.Semigroupoid":46}],41:[function(require,module,exports){
+},{"../Control.Semigroupoid":47}],42:[function(require,module,exports){
 "use strict";
 
 exports.log = function (s) {
@@ -4351,7 +4404,7 @@ exports.info = function (s) {
   };
 };
 
-},{}],42:[function(require,module,exports){
+},{}],43:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var $foreign = require("./foreign");
@@ -4389,7 +4442,7 @@ module.exports = {
     warn: $foreign.warn
 };
 
-},{"../Control.Monad.Eff":44,"../Data.Show":75,"../Data.Unit":77,"./foreign":41}],43:[function(require,module,exports){
+},{"../Control.Monad.Eff":45,"../Data.Show":76,"../Data.Unit":78,"./foreign":42}],44:[function(require,module,exports){
 "use strict";
 
 exports.pureE = function (a) {
@@ -4450,7 +4503,7 @@ exports.foreachE = function (as) {
   };
 };
 
-},{}],44:[function(require,module,exports){
+},{}],45:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var $foreign = require("./foreign");
@@ -4488,7 +4541,7 @@ module.exports = {
     whileE: $foreign.whileE
 };
 
-},{"../Control.Applicative":35,"../Control.Apply":37,"../Control.Bind":39,"../Control.Monad":45,"../Data.Functor":59,"../Data.Unit":77,"./foreign":43}],45:[function(require,module,exports){
+},{"../Control.Applicative":36,"../Control.Apply":38,"../Control.Bind":40,"../Control.Monad":46,"../Data.Functor":60,"../Data.Unit":78,"./foreign":44}],46:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -4558,7 +4611,7 @@ module.exports = {
     monadArray: monadArray
 };
 
-},{"../Control.Applicative":35,"../Control.Apply":37,"../Control.Bind":39,"../Data.Functor":59,"../Data.Unit":77}],46:[function(require,module,exports){
+},{"../Control.Applicative":36,"../Control.Apply":38,"../Control.Bind":40,"../Data.Functor":60,"../Data.Unit":78}],47:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var Semigroupoid = function (compose) {
@@ -4588,7 +4641,7 @@ module.exports = {
     semigroupoidFn: semigroupoidFn
 };
 
-},{}],47:[function(require,module,exports){
+},{}],48:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var otherwise = true;
@@ -4596,7 +4649,7 @@ module.exports = {
     otherwise: otherwise
 };
 
-},{}],48:[function(require,module,exports){
+},{}],49:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var Data_HeytingAlgebra = require("../Data.HeytingAlgebra");
@@ -4622,7 +4675,7 @@ module.exports = {
     booleanAlgebraFn: booleanAlgebraFn
 };
 
-},{"../Data.HeytingAlgebra":61,"../Data.Unit":77}],49:[function(require,module,exports){
+},{"../Data.HeytingAlgebra":62,"../Data.Unit":78}],50:[function(require,module,exports){
 "use strict";
 
 exports.topInt = 2147483647;
@@ -4631,7 +4684,7 @@ exports.bottomInt = -2147483648;
 exports.topChar = String.fromCharCode(65535);
 exports.bottomChar = String.fromCharCode(0);
 
-},{}],50:[function(require,module,exports){
+},{}],51:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var $foreign = require("./foreign");
@@ -4675,7 +4728,7 @@ module.exports = {
     boundedUnit: boundedUnit
 };
 
-},{"../Data.Ord":66,"../Data.Ordering":67,"../Data.Unit":77,"./foreign":49}],51:[function(require,module,exports){
+},{"../Data.Ord":67,"../Data.Ordering":68,"../Data.Unit":78,"./foreign":50}],52:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var Data_Ring = require("../Data.Ring");
@@ -4706,7 +4759,7 @@ module.exports = {
     commutativeRingFn: commutativeRingFn
 };
 
-},{"../Data.Ring":69,"../Data.Semiring":73,"../Data.Unit":77}],52:[function(require,module,exports){
+},{"../Data.Ring":70,"../Data.Semiring":74,"../Data.Unit":78}],53:[function(require,module,exports){
 "use strict";
 
 exports.refEq = function (r1) {
@@ -4733,7 +4786,7 @@ exports.eqArrayImpl = function (f) {
   };
 };
 
-},{}],53:[function(require,module,exports){
+},{}],54:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var $foreign = require("./foreign");
@@ -4806,7 +4859,7 @@ module.exports = {
     eq1Array: eq1Array
 };
 
-},{"../Data.Unit":77,"../Data.Void":78,"./foreign":52}],54:[function(require,module,exports){
+},{"../Data.Unit":78,"../Data.Void":79,"./foreign":53}],55:[function(require,module,exports){
 "use strict";
 
 exports.intDegree = function (x) {
@@ -4832,7 +4885,7 @@ exports.numDiv = function (n1) {
   };
 };
 
-},{}],55:[function(require,module,exports){
+},{}],56:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var $foreign = require("./foreign");
@@ -4922,7 +4975,7 @@ module.exports = {
     euclideanRingNumber: euclideanRingNumber
 };
 
-},{"../Data.BooleanAlgebra":48,"../Data.CommutativeRing":51,"../Data.Eq":53,"../Data.HeytingAlgebra":61,"../Data.Ring":69,"../Data.Semiring":73,"./foreign":54}],56:[function(require,module,exports){
+},{"../Data.BooleanAlgebra":49,"../Data.CommutativeRing":52,"../Data.Eq":54,"../Data.HeytingAlgebra":62,"../Data.Ring":70,"../Data.Semiring":74,"./foreign":55}],57:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var Data_CommutativeRing = require("../Data.CommutativeRing");
@@ -4940,7 +4993,7 @@ module.exports = {
     fieldNumber: fieldNumber
 };
 
-},{"../Data.CommutativeRing":51,"../Data.EuclideanRing":55,"../Data.Ring":69,"../Data.Semiring":73}],57:[function(require,module,exports){
+},{"../Data.CommutativeRing":52,"../Data.EuclideanRing":56,"../Data.Ring":70,"../Data.Semiring":74}],58:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var Control_Category = require("../Control.Category");
@@ -4983,7 +5036,7 @@ module.exports = {
     on: on
 };
 
-},{"../Control.Category":40}],58:[function(require,module,exports){
+},{"../Control.Category":41}],59:[function(require,module,exports){
 "use strict";
 
 exports.arrayMap = function (f) {
@@ -4997,7 +5050,7 @@ exports.arrayMap = function (f) {
   };
 };
 
-},{}],59:[function(require,module,exports){
+},{}],60:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var $foreign = require("./foreign");
@@ -5055,7 +5108,7 @@ module.exports = {
     functorArray: functorArray
 };
 
-},{"../Control.Semigroupoid":46,"../Data.Function":57,"../Data.Unit":77,"./foreign":58}],60:[function(require,module,exports){
+},{"../Control.Semigroupoid":47,"../Data.Function":58,"../Data.Unit":78,"./foreign":59}],61:[function(require,module,exports){
 "use strict";
 
 exports.boolConj = function (b1) {
@@ -5074,7 +5127,7 @@ exports.boolNot = function (b) {
   return !b;
 };
 
-},{}],61:[function(require,module,exports){
+},{}],62:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var $foreign = require("./foreign");
@@ -5167,12 +5220,12 @@ module.exports = {
     heytingAlgebraFunction: heytingAlgebraFunction
 };
 
-},{"../Data.Unit":77,"./foreign":60}],62:[function(require,module,exports){
+},{"../Data.Unit":78,"./foreign":61}],63:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 module.exports = {};
 
-},{}],63:[function(require,module,exports){
+},{}],64:[function(require,module,exports){
 "use strict";
 
 exports.unsafeCompareImpl = function (lt) {
@@ -5187,7 +5240,7 @@ exports.unsafeCompareImpl = function (lt) {
   };
 };
 
-},{}],64:[function(require,module,exports){
+},{}],65:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var $foreign = require("./foreign");
@@ -5197,7 +5250,7 @@ module.exports = {
     unsafeCompare: unsafeCompare
 };
 
-},{"../Data.Ordering":67,"./foreign":63}],65:[function(require,module,exports){
+},{"../Data.Ordering":68,"./foreign":64}],66:[function(require,module,exports){
 "use strict";
 
 exports.ordArrayImpl = function (f) {
@@ -5226,7 +5279,7 @@ exports.ordArrayImpl = function (f) {
   };
 };
 
-},{}],66:[function(require,module,exports){
+},{}],67:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var $foreign = require("./foreign");
@@ -5497,7 +5550,7 @@ module.exports = {
     ord1Array: ord1Array
 };
 
-},{"../Data.Eq":53,"../Data.Function":57,"../Data.Ord.Unsafe":64,"../Data.Ordering":67,"../Data.Ring":69,"../Data.Semiring":73,"../Data.Unit":77,"../Data.Void":78,"./foreign":65}],67:[function(require,module,exports){
+},{"../Data.Eq":54,"../Data.Function":58,"../Data.Ord.Unsafe":65,"../Data.Ordering":68,"../Data.Ring":70,"../Data.Semiring":74,"../Data.Unit":78,"../Data.Void":79,"./foreign":66}],68:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var Data_Eq = require("../Data.Eq");
@@ -5586,7 +5639,7 @@ module.exports = {
     showOrdering: showOrdering
 };
 
-},{"../Data.Eq":53,"../Data.Semigroup":71,"../Data.Show":75}],68:[function(require,module,exports){
+},{"../Data.Eq":54,"../Data.Semigroup":72,"../Data.Show":76}],69:[function(require,module,exports){
 "use strict";
 
 exports.intSub = function (x) {
@@ -5602,7 +5655,7 @@ exports.numSub = function (n1) {
   };
 };
 
-},{}],69:[function(require,module,exports){
+},{}],70:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var $foreign = require("./foreign");
@@ -5654,7 +5707,7 @@ module.exports = {
     ringFn: ringFn
 };
 
-},{"../Data.Semiring":73,"../Data.Unit":77,"./foreign":68}],70:[function(require,module,exports){
+},{"../Data.Semiring":74,"../Data.Unit":78,"./foreign":69}],71:[function(require,module,exports){
 "use strict";
 
 exports.concatString = function (s1) {
@@ -5671,7 +5724,7 @@ exports.concatArray = function (xs) {
   };
 };
 
-},{}],71:[function(require,module,exports){
+},{}],72:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var $foreign = require("./foreign");
@@ -5712,7 +5765,7 @@ module.exports = {
     semigroupArray: semigroupArray
 };
 
-},{"../Data.Unit":77,"../Data.Void":78,"./foreign":70}],72:[function(require,module,exports){
+},{"../Data.Unit":78,"../Data.Void":79,"./foreign":71}],73:[function(require,module,exports){
 "use strict";
 
 exports.intAdd = function (x) {
@@ -5741,7 +5794,7 @@ exports.numMul = function (n1) {
   };
 };
 
-},{}],73:[function(require,module,exports){
+},{}],74:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var $foreign = require("./foreign");
@@ -5806,7 +5859,7 @@ module.exports = {
     semiringUnit: semiringUnit
 };
 
-},{"../Data.Unit":77,"./foreign":72}],74:[function(require,module,exports){
+},{"../Data.Unit":78,"./foreign":73}],75:[function(require,module,exports){
 "use strict";
 
 exports.showIntImpl = function (n) {
@@ -5869,7 +5922,7 @@ exports.showArrayImpl = function (f) {
   };
 };
 
-},{}],75:[function(require,module,exports){
+},{}],76:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var $foreign = require("./foreign");
@@ -5906,12 +5959,12 @@ module.exports = {
     showArray: showArray
 };
 
-},{"./foreign":74}],76:[function(require,module,exports){
+},{"./foreign":75}],77:[function(require,module,exports){
 "use strict";
 
 exports.unit = {};
 
-},{}],77:[function(require,module,exports){
+},{}],78:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var $foreign = require("./foreign");
@@ -5924,7 +5977,7 @@ module.exports = {
     unit: $foreign.unit
 };
 
-},{"../Data.Show":75,"./foreign":76}],78:[function(require,module,exports){
+},{"../Data.Show":76,"./foreign":77}],79:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var Data_Show = require("../Data.Show");
@@ -5951,7 +6004,7 @@ module.exports = {
     showVoid: showVoid
 };
 
-},{"../Data.Show":75}],79:[function(require,module,exports){
+},{"../Data.Show":76}],80:[function(require,module,exports){
 exports.getVnodeName = function(vnode) {
   return vnode.state.name;
 };
@@ -5963,81 +6016,33 @@ exports.setState = function(state) {
   }
 }
 
-exports.getPropStreet = function(vnode) {
-  return vnode.name
-}
-
 exports.toggla = function() {
   console.log("toggelido!");
 }
-},{}],80:[function(require,module,exports){
-// Generated by purs version 0.11.4
+},{}],81:[function(require,module,exports){
 "use strict";
 var $foreign = require("./foreign");
 var Prelude = require("../Prelude");
-var setInitialState = $foreign.setState({
-    name: "Namn", 
-    street: "gata"
-});
 module.exports = {
-    setInitialState: setInitialState, 
     getVnodeName: $foreign.getVnodeName, 
     setState: $foreign.setState, 
     toggla: $foreign.toggla
 };
 
-},{"../Prelude":84,"./foreign":79}],81:[function(require,module,exports){
+},{"../Prelude":85,"./foreign":80}],82:[function(require,module,exports){
+// Generated by purs version 0.11.4
 "use strict";
-var Control_Applicative = require("../Control.Applicative");
+var App = require("../App");
 var Control_Monad_Eff = require("../Control.Monad.Eff");
-var Control_Monad_Eff_Console = require("../Control.Monad.Eff.Console");
-var Data = require("../Data");
-var Data_Unit = require("../Data.Unit");
 var Mithril = require("../Mithril");
-var Prelude = require("../Prelude");
-var React_DOM_Props = require("../React.DOM.Props");
-var Views = require("../Views");
-var Pang = (function () {
-    function Pang() {
-
-    };
-    Pang.value = new Pang();
-    return Pang;
-})();
-var Noop = (function () {
-    function Noop() {
-
-    };
-    Noop.value = new Noop();
-    return Noop;
-})();
-var dispatch = function (s) {
-    if (s instanceof Pang) {
-        return Control_Monad_Eff_Console.log("PANG!");
-    };
-    if (s instanceof Noop) {
-        return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
-    };
-    throw new Error("Failed pattern match at Main line 33, column 3 - line 35, column 22: " + [ s.constructor.name ]);
-};
-var app = {
-    oninit: Data.setInitialState, 
-    view: function (vnode) {
-        return [ Mithril.div_([ Mithril.mc(Views.navbar), Mithril.h1("Mithril + Purescript"), Mithril.input([ React_DOM_Props._type("text"), React_DOM_Props.placeholder("enter Username "), React_DOM_Props.value(Data.getVnodeName(vnode)) ]), Mithril.input([ React_DOM_Props._type("password"), React_DOM_Props.placeholder("enter password") ]), Mithril.p_([ Mithril.text(Data.getVnodeName(vnode)) ]), Mithril.mp("a")([ React_DOM_Props.href("http://www.intel.com"), Mithril.className("success button") ])([ Mithril.text("Add") ]), Mithril.mp("a")([ React_DOM_Props.href("http://www.hp.com"), Mithril.className("warning button") ])([ Mithril.text("Update") ]), Mithril.mp("button")([ React_DOM_Props._type("button"), Mithril.className("success button"), Mithril.onclick(Control_Monad_Eff_Console.log("hej")) ])([ Mithril.text("Test") ]), Mithril.mp("button")([ React_DOM_Props._type("button"), Mithril.className("alert button"), Mithril.onclick(dispatch(Pang.value)) ])([ Mithril.text("Radera") ]), Mithril.mp_("span.label.warning")([ Mithril.text("Warning") ]), Mithril.mc(Views.footer) ]) ];
-    }
-};
 var main = function (v) {
-    return Mithril.mithrilMount("main")(app);
+    return Mithril.mithrilMount("main")(App.app);
 };
 module.exports = {
-    Pang: Pang, 
-    Noop: Noop, 
-    app: app, 
-    dispatch: dispatch, 
     main: main
 };
 
-},{"../Control.Applicative":35,"../Control.Monad.Eff":44,"../Control.Monad.Eff.Console":42,"../Data":80,"../Data.Unit":77,"../Mithril":83,"../Prelude":84,"../React.DOM.Props":86,"../Views":91}],82:[function(require,module,exports){
+},{"../App":35,"../Control.Monad.Eff":45,"../Mithril":84}],83:[function(require,module,exports){
 "use strict";
 
 // module Mithril
@@ -6048,29 +6053,29 @@ exports.mithrilRequest = function(x) {
 
 exports.a = function(p) {
   return function(n) {
-      var pp = p[0];
-      return m("a", pp, n)
+      var props = arro2objs(p)
+      return m("a", props, n)
     }
 };
 
 exports.i = function(p) {
   return function(n) {
-      var pp = p[0];
-      return m("i", pp, n)
+      var props = arro2objs(p)
+      return m("i", props, n)
     }
 };
 
 exports.ul = function(p) {
   return function(n) {
-      var pp = p[0];
-      return m("ul", pp, n)
+      var props = arro2objs(p)
+      return m("ul", props, n)
     }
 };
 
 exports.li = function(p) {
   return function(n) {
-      var pp = p[0];
-      return m("li", pp, n)
+      var props = arro2objs(p)
+      return m("li", props, n)
     }
 };
 
@@ -6098,9 +6103,8 @@ exports.span_ = function(x) {
 };
 
 exports.input = function(p) {
-  // return function(n) {
-      var pp = p[0];
-      return m("input", pp)
+      var props = arro2objs(p)
+      return m("input", props)
 };
 
 exports.m = function(x) {
@@ -6114,18 +6118,19 @@ exports.m = function(x) {
 exports.mp = function(x) {
   return function(proparr) {
     return function(z) {
-      // var yy = Object.assign({}, ...y);
-      // var yy = $.extend({}, object1, object2);
-      // var yy = y[0];
-      var props = {};
-
-      for (var i = 0; i < proparr.length; i++) {
-        $.extend(props, proparr[i])
-      }
+      var props = arro2objs(proparr)
       return m(x, props, z)
     }
   }
 };
+
+function arro2objs(proparr) {
+  var props = {};
+  for (var i = 0; i < proparr.length; i++) {
+    $.extend(props, proparr[i])
+  }
+  return props;
+}
 
 exports.mp_ = function(x) {
     return function(y) {
@@ -6150,15 +6155,8 @@ exports.mithrilMount = function(x) {
     return m.mount(document.getElementById(x), y);
   };
 };
-
-exports.unsafeMkProps = function(key) {
-  return function(value){
-    var result = {};
-    result[key] = value;
-    return result;
-  };
-}
-},{}],83:[function(require,module,exports){
+},{}],84:[function(require,module,exports){
+// Generated by purs version 0.11.4
 "use strict";
 var $foreign = require("./foreign");
 var Control_Monad_Eff = require("../Control.Monad.Eff");
@@ -6195,7 +6193,7 @@ module.exports = {
     ul: $foreign.ul
 };
 
-},{"../Control.Monad.Eff":44,"../Control.Monad.Eff.Console":42,"../Data":80,"../Prelude":84,"../React.DOM.Props":86,"./foreign":82}],84:[function(require,module,exports){
+},{"../Control.Monad.Eff":45,"../Control.Monad.Eff.Console":43,"../Data":81,"../Prelude":85,"../React.DOM.Props":87,"./foreign":83}],85:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -6225,7 +6223,7 @@ var Data_Unit = require("../Data.Unit");
 var Data_Void = require("../Data.Void");
 module.exports = {};
 
-},{"../Control.Applicative":35,"../Control.Apply":37,"../Control.Bind":39,"../Control.Category":40,"../Control.Monad":45,"../Control.Semigroupoid":46,"../Data.Boolean":47,"../Data.BooleanAlgebra":48,"../Data.Bounded":50,"../Data.CommutativeRing":51,"../Data.Eq":53,"../Data.EuclideanRing":55,"../Data.Field":56,"../Data.Function":57,"../Data.Functor":59,"../Data.HeytingAlgebra":61,"../Data.NaturalTransformation":62,"../Data.Ord":66,"../Data.Ordering":67,"../Data.Ring":69,"../Data.Semigroup":71,"../Data.Semiring":73,"../Data.Show":75,"../Data.Unit":77,"../Data.Void":78}],85:[function(require,module,exports){
+},{"../Control.Applicative":36,"../Control.Apply":38,"../Control.Bind":40,"../Control.Category":41,"../Control.Monad":46,"../Control.Semigroupoid":47,"../Data.Boolean":48,"../Data.BooleanAlgebra":49,"../Data.Bounded":51,"../Data.CommutativeRing":52,"../Data.Eq":54,"../Data.EuclideanRing":56,"../Data.Field":57,"../Data.Function":58,"../Data.Functor":60,"../Data.HeytingAlgebra":62,"../Data.NaturalTransformation":63,"../Data.Ord":67,"../Data.Ordering":68,"../Data.Ring":70,"../Data.Semigroup":72,"../Data.Semiring":74,"../Data.Show":76,"../Data.Unit":78,"../Data.Void":79}],86:[function(require,module,exports){
 /* global exports */
 "use strict";
 
@@ -6289,7 +6287,7 @@ function unsafeFromPropsArray(props) {
 };
 exports.unsafeFromPropsArray = unsafeFromPropsArray;
 
-},{"react":34}],86:[function(require,module,exports){
+},{"react":34}],87:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var $foreign = require("./foreign");
@@ -6733,7 +6731,7 @@ module.exports = {
     unsafeUnfoldProps: $foreign.unsafeUnfoldProps
 };
 
-},{"../React":88,"./foreign":85}],87:[function(require,module,exports){
+},{"../React":89,"./foreign":86}],88:[function(require,module,exports){
 /* global exports */
 "use strict";
 
@@ -6899,7 +6897,7 @@ function stopPropagation(event) {
 };
 exports.stopPropagation = stopPropagation;
 
-},{"react":34}],88:[function(require,module,exports){
+},{"react":34}],89:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var $foreign = require("./foreign");
@@ -6986,7 +6984,7 @@ module.exports = {
     writeStateWithCallback: $foreign.writeStateWithCallback
 };
 
-},{"../Control.Applicative":35,"../Control.Monad.Eff":44,"../Data.Unit":77,"../Prelude":84,"../Unsafe.Coerce":90,"./foreign":87}],89:[function(require,module,exports){
+},{"../Control.Applicative":36,"../Control.Monad.Eff":45,"../Data.Unit":78,"../Prelude":85,"../Unsafe.Coerce":91,"./foreign":88}],90:[function(require,module,exports){
 "use strict";
 
 // module Unsafe.Coerce
@@ -6995,7 +6993,7 @@ exports.unsafeCoerce = function (x) {
   return x;
 };
 
-},{}],90:[function(require,module,exports){
+},{}],91:[function(require,module,exports){
 // Generated by purs version 0.11.4
 "use strict";
 var $foreign = require("./foreign");
@@ -7003,7 +7001,8 @@ module.exports = {
     unsafeCoerce: $foreign.unsafeCoerce
 };
 
-},{"./foreign":89}],91:[function(require,module,exports){
+},{"./foreign":90}],92:[function(require,module,exports){
+// Generated by purs version 0.11.4
 "use strict";
 var Data = require("../Data");
 var Mithril = require("../Mithril");
@@ -7023,10 +7022,10 @@ module.exports = {
     navbar: navbar
 };
 
-},{"../Data":80,"../Mithril":83,"../React.DOM.Props":86}],92:[function(require,module,exports){
+},{"../Data":81,"../Mithril":84,"../React.DOM.Props":87}],93:[function(require,module,exports){
 require('Main').main();
 
-},{"Main":81}],93:[function(require,module,exports){
+},{"Main":82}],94:[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
 
@@ -7208,4 +7207,4 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}]},{},[92]);
+},{}]},{},[93]);

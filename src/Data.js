@@ -9,10 +9,6 @@ exports.setState = function(state) {
   }
 }
 
-exports.getPropStreet = function(vnode) {
-  return vnode.name
-}
-
 exports.toggla = function() {
   console.log("toggelido!");
 }

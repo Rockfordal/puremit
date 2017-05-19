@@ -8,29 +8,29 @@ exports.mithrilRequest = function(x) {
 
 exports.a = function(p) {
   return function(n) {
-      var pp = p[0];
-      return m("a", pp, n)
+      var props = arro2objs(p)
+      return m("a", props, n)
     }
 };
 
 exports.i = function(p) {
   return function(n) {
-      var pp = p[0];
-      return m("i", pp, n)
+      var props = arro2objs(p)
+      return m("i", props, n)
     }
 };
 
 exports.ul = function(p) {
   return function(n) {
-      var pp = p[0];
-      return m("ul", pp, n)
+      var props = arro2objs(p)
+      return m("ul", props, n)
     }
 };
 
 exports.li = function(p) {
   return function(n) {
-      var pp = p[0];
-      return m("li", pp, n)
+      var props = arro2objs(p)
+      return m("li", props, n)
     }
 };
 
@@ -58,9 +58,8 @@ exports.span_ = function(x) {
 };
 
 exports.input = function(p) {
-  // return function(n) {
-      var pp = p[0];
-      return m("input", pp)
+      var props = arro2objs(p)
+      return m("input", props)
 };
 
 exports.m = function(x) {
@@ -74,18 +73,19 @@ exports.m = function(x) {
 exports.mp = function(x) {
   return function(proparr) {
     return function(z) {
-      // var yy = Object.assign({}, ...y);
-      // var yy = $.extend({}, object1, object2);
-      // var yy = y[0];
-      var props = {};
-
-      for (var i = 0; i < proparr.length; i++) {
-        $.extend(props, proparr[i])
-      }
+      var props = arro2objs(proparr)
       return m(x, props, z)
     }
   }
 };
+
+function arro2objs(proparr) {
+  var props = {};
+  for (var i = 0; i < proparr.length; i++) {
+    $.extend(props, proparr[i])
+  }
+  return props;
+}
 
 exports.mp_ = function(x) {
     return function(y) {
@@ -110,11 +110,3 @@ exports.mithrilMount = function(x) {
     return m.mount(document.getElementById(x), y);
   };
 };
-
-exports.unsafeMkProps = function(key) {
-  return function(value){
-    var result = {};
-    result[key] = value;
-    return result;
-  };
-}
