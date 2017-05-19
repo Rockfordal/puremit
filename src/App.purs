@@ -18,7 +18,7 @@ app = {
   oninit: setState initialState,
   view: \vnode ->
   [ div_
-    [ mc navbar
+    [ m navbar
     , h1 "Mithril + Purescript"
     , input [ _type "text", placeholder "enter Username ", value (getVnodeName vnode) ]
     , input [ _type "password", placeholder "enter password" ]
@@ -28,7 +28,7 @@ app = {
     , button [ _type "button", className "success button", onclick (log "hey!") ] [ text "Test"]
     , button [ _type "button", className "alert button", onclick (dispatch Pang) ] [ text "Radera" ]
     , span [ className "label warning" ] [ text "Varning"]
-    , mc footer
+    , m footer
     ] ] }
 
 dispatch :: forall e. Input -> Eff ( console :: CONSOLE | e) Unit

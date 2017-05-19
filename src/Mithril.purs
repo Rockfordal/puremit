@@ -32,11 +32,11 @@ foreign import input :: Array Props -> MithrilDomNode
 
 foreign import span :: Array Props -> Array MithrilDomNode -> MithrilDomNode
 foreign import button :: Array Props -> Array MithrilDomNode -> MithrilDomNode
-foreign import m  :: String -> Array Props -> Array MithrilDomNode -> MithrilDomNode
+-- foreign import m  :: String -> Array Props -> Array MithrilDomNode -> MithrilDomNode
 foreign import mp :: String -> Array Props -> Array MithrilDomNode -> MithrilDomNode
 foreign import mp_ :: String -> Array MithrilDomNode -> MithrilDomNode
 foreign import m_ :: String -> MithrilDomNode
-foreign import mc :: { view :: Vnode -> Array MithrilDomNode } -> MithrilDomNode
+foreign import m :: { view :: Vnode -> Array MithrilDomNode } -> MithrilDomNode
 
 -- foreign import withAttr :: String -> String ->
 

@@ -62,13 +62,13 @@ exports.input = function(p) {
       return m("input", props)
 };
 
-exports.m = function(x) {
-  return function(y) {
-    return function(z) {
-      return m(x, y, z)
-    }
-  }
-};
+// exports.m = function(x) {
+//   return function(y) {
+//     return function(z) {
+//       return m(x, y, z)
+//     }
+//   }
+// };
 
 exports.mp = function(x) {
   return function(proparr) {
@@ -115,9 +115,10 @@ exports.text = function(s) {
   return s;
 }
 
-exports.mc = function(x) {
-  return m(x)
-};
+exports.m = m;
+// exports.m = function(x) {
+//   return m(x)
+// };
 
 exports.mithrilMount = function(x) {
   return function(y) {
