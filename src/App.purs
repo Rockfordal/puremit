@@ -23,11 +23,11 @@ app = {
     , input [ _type "text", placeholder "enter Username ", value (getVnodeName vnode) ]
     , input [ _type "password", placeholder "enter password" ]
     , p_ [ text (getVnodeName vnode) ]
-    , mp "a" [ href "http://www.intel.com", className "success button" ] [ text "Add" ]
-    , mp "a" [ href "http://www.hp.com", className "warning button" ] [ text "Update" ]
+    , a [ href "http://www.intel.com", className "success button" ] [ text "Add" ]
+    , a [ href "http://www.hp.com", className "warning button" ] [ text "Update" ]
     , mp "button" [ _type "button", className "success button", onclick (log "hey!") ] [ text "Test"]
     , mp "button" [ _type "button", className "alert button", onclick (dispatch Pang) ] [ text "Radera" ]
-    , mp_ "span.label.warning" [ text "Warning"]
+    , span [ className "label warning" ] [ text "Varning"]
     , mc footer
     ] ] }
 

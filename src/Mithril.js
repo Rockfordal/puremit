@@ -79,6 +79,13 @@ exports.mp = function(x) {
   }
 };
 
+exports.span = function(proparr) {
+  return function(dom) {
+    var props = arro2objs(proparr)
+    return m("span", props, dom)
+  }
+};
+
 function arro2objs(proparr) {
   var props = {};
   for (var i = 0; i < proparr.length; i++) {
