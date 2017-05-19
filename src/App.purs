@@ -17,7 +17,6 @@ app :: { oninit :: Vnode -> Unit, view :: Vnode -> Array MithrilDomNode }
 app = {
   oninit: setState initialState,
   view: \vnode ->
-  [ div_
     [ m navbar
     , h1 "Mithril + Purescript"
     , input [ _type "text", placeholder "enter Username ", value (getVnodeName vnode) ]
@@ -29,7 +28,7 @@ app = {
     , button [ _type "button", className "alert button", onclick (dispatch Pang) ] [ text "Radera" ]
     , span [ className "label warning" ] [ text "Varning"]
     , m footer
-    ] ] }
+    ] }
 
 dispatch :: forall e. Input -> Eff ( console :: CONSOLE | e) Unit
 dispatch s =
