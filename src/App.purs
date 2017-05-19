@@ -32,7 +32,7 @@ app = {
     ] ] }
 
 dispatch :: forall e. Input -> Eff ( console :: CONSOLE | e) Unit
-dispatch s = do
+dispatch s =
   case s of
     Pang -> log "PANG!"
     None -> pure unit

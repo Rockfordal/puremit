@@ -1,27 +1,13 @@
-Simple example of using [Mithril](http://mithril.js.org/) with [Purescript](http://www.purescript.org/).
+# puremit
 
-This was my first time using Purescript, so I'm sure the ffi bindings
-could be better. But a small demo app amounts to:
+Experiment based on bobjflong's repository [Bobjflong](https://github.com/bobjflong/mithril-purescript-demo)
 
-```haskell
-module Main where
+Which uses [Mithril](http://mithril.js.org/) and [Purescript](http://www.purescript.org/).
 
-import Mithril
-import Prelude
 
-api = "http://jsonplaceholder.typicode.com/posts"
+I am a beginner i Purescript, with no Mithril experience
+But ill do my best to get something working (FFI may be horrible)
+Having a Store would be nice, possibly State Monad
+Long term goal would be to get super simple ajax, websocket, sessionstorage and token login working as i have in my thermdrag repository, halogen branch.
 
-app = {
-  page_list: mithrilRequest { method: "GET", url: api },
-  controller: \_ -> { pages: app.page_list },
-  view: view
-}
-
-post2Dom :: Post -> MithrilDomNode
-post2Dom x = mithrilDomLink { href: x.id } x.title
-
-view :: PostList -> Array MithrilDomNode
-view x = map post2Dom (pages x)
-
-main = \_ -> mithrilMount "main" app
-```
+This ugly sample/experiment is using Zurb Foundation 6 right now, which i also decided to learn
